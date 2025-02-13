@@ -1,127 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nestoria</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-  <header>
-    <div class="container flex-row">
-      <a href="../../index.html">
-        <img src="../imgs/logo/NESTORIA.svg" alt="logo" />
-      </a>
-      <div class="search_container">
-        <img src="../imgs/header/search.svg" alt="search">
-        <input type="search" placeholder="Поиск по каталогу"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nestoria</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex-row">
+        <a href="../../index.html">
+          <img src="../imgs/logo/NESTORIA.svg" alt="logo" />
+        </a>
+        <div class="search_container">
+          <img src="../imgs/header/search.svg" alt="search" />
+          <input type="search" placeholder="Поиск по каталогу" />
+        </div>
+        <div class="header_btn-container flex-row justify-between">
+          <a href="../pages/catalog.html" class="header_btn btn">
+            <img src="../imgs/header/catalog.svg" alt="catalog" />
+          </a>
+          <a href="#" class="header_btn btn">
+            <img src="../imgs/header/card.svg" alt="card" />
+          </a>
+          <a href="../pages/reg.html" class="header_btn btn">
+            <img src="../imgs/header/user.svg" alt="user" />
+          </a>
+        </div>
       </div>
-      <div class="header_btn-container flex-row justify-between">
-        <a href="../pages/catalog.html" class="header_btn btn">
-          <img src="../imgs/header/catalog.svg" alt="catalog"/>
-        </a>
-        <a href="#" class="header_btn btn">
-          <img src="../imgs/header/card.svg" alt="card"/>
-        </a>
-        <a href="../pages/reg.html" class="header_btn btn">
-          <img src="../imgs/header/user.svg" alt="user"/>
-        </a>
+    </header>
+    <section class="user">
+      <div class="container flex-row justify-between">
+        <aside class="user_info flex-col">
+          <div class="user_info-main flex-row justify-between">
+            <div class="flex-row">
+              <img src="../imgs/user/user.png" alt="user" />
+              <div>
+                <p>Иван</p>
+                <a href="mailto:ivanSevin@mail.ru">ivanSevin@mail.ru</a>
+              </div>
+            </div>
+            <button type="button" class="flex-row">
+              <img src="../imgs/user/pen.svg" alt="pen" />
+            </button>
+          </div>
+          <div class="user_info-block flex-row">
+            <img src="../imgs/user/calendare.svg" alt="calendare" />
+            <p>20.01.2000</p>
+          </div>
+          <div class="user_info-block flex-row">
+            <img src="../imgs/user/package.svg" alt="package" />
+            <p>РТ, Казань, Советский Район, Зур Урам 6А</p>
+          </div>
+          <div class="user_info-block flex-row">
+            <img src="../imgs/user/phone.svg" alt="phone" />
+            <p>+7 987 654 32 10</p>
+          </div>
+          <div class="user_info-payment">
+            <p>Способ оплаты</p>
+            <button type="button" class="flex-row justify-between">
+              Банковской картой
+              <img src="../imgs/user/card.svg" alt="card" />
+            </button>
+          </div>
+        </aside>
+        <div class="user_history flex-col">
+          <h3>История заказов</h3>
+          <table class="user_history_table">
+            <thead>
+              <tr>
+                <th>Номер заказа</th>
+                <th>Товары</th>
+                <th>Адрес доставки</th>
+                <th>Статус</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>12345678</td>
+                <td>Серый стул</td>
+                <td>РТ, Казань, Советский Район, Зур Урам 6А</td>
+                <td>Доставлен</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
-  </header>
-  <section class="user">
-    <div class="container flex-row justify-between">
-      <aside class="user_info flex-col">
-        <div class="user_info-main flex-row justify-between">
-          <div class="flex-row">
-            <img src="../imgs/user/user.png" alt="user">
-            <div>
-              <p>Иван</p>
-              <a href="mailto:ivanSevin@mail.ru">ivanSevin@mail.ru</a>
+    </section>
+    <footer>
+      <div class="footer1">
+        <div class="container flex-row justify-between">
+          <nav class="flex-col">
+            <p>Навигация</p>
+            <a href="../../index.html">Главная</a>
+            <a href="../pages/catalog.html">Каталог</a>
+            <a href="#">Личный кабинет</a>
+            <a href="#">Корзина</a>
+          </nav>
+          <div class="search_container">
+            <img src="../imgs/footer/search.svg" alt="search" />
+            <input type="search" placeholder="Поиск по каталогу" />
+          </div>
+          <div class="col3 flex-col">
+            <img src="../imgs/logo/footer_logo.svg" alt="footer_logo" />
+            <a href="tel:+89876543210">+8 987 6<span>54 32 10</span></a>
+            <div class="soc_media flex-row">
+              <a href="https://vk.com/" class="btn">
+                <img src="../imgs/footer/vk.svg" alt="vk" />
+              </a>
+              <a href="https://telegram.org/" class="btn">
+                <img src="../imgs/footer/telegram.svg" alt="telegram" />
+              </a>
             </div>
           </div>
-          <button type="button" class="flex-row">
-            <img src="../imgs/user/pen.svg" alt="pen">
-          </button>
-        </div>
-        <div class="user_info-block flex-row">
-          <img src="../imgs/user/calendare.svg" alt="calendare">
-          <p>20.01.2000</p>
-        </div>
-        <div class="user_info-block flex-row">
-          <img src="../imgs/user/package.svg" alt="package">
-          <p>РТ, Казань, Советский Район, Зур Урам 6А</p>
-        </div>
-        <div class="user_info-block flex-row">
-          <img src="../imgs/user/phone.svg" alt="phone">
-          <p>+7 987 654 32 10</p>
-        </div>
-        <div class="user_info-payment">
-          <p>Способ оплаты</p>
-          <button type="button" class="flex-row justify-between">
-            <p>Банковской картой</p>
-            <img src="../imgs/user/card.svg" alt="card">
-          </button>
-        </div>
-      </aside>
-      <div class="user_history flex-col">
-        <h3>История заказов</h3>
-        <table class="user_history_table">
-          <thead>
-            <tr>
-              <th>Номер заказа</th>
-              <th>Товары</th>
-              <th>Адрес доставки</th>
-              <th>Статус</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>12345678</td>
-              <td>Серый стул</td>
-              <td>РТ, Казань, Советский Район, Зур Урам 6А</td>
-              <td>Доставлен</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="footer1">
-      <div class="container flex-row justify-between">
-        <nav class="flex-col">
-          <p>Навигация</p>
-          <a href="../../index.html">Главная</a>
-          <a href="../pages/catalog.html">Каталог</a>
-          <a href="#">Личный кабинет</a>
-          <a href="#">Корзина</a>
-        </nav>
-        <div class="search_container">
-          <img src="../imgs/footer/search.svg" alt="search">
-          <input type="search" placeholder="Поиск по каталогу"/>
-        </div>
-        <div class="col3 flex-col">
-          <img src="../imgs/logo/footer_logo.svg" alt="footer_logo" />
-          <a href="tel:+89876543210">+8 987 6<span>54 32 10</span></a>
-          <div class="soc_media flex-row">
-            <a href="https://vk.com/" class="btn">
-              <img src="../imgs/footer/vk.svg" alt="vk">
-            </a>
-            <a href="https://telegram.org/" class="btn">
-              <img src="../imgs/footer/telegram.svg" alt="telegram">
-            </a>
-          </div>
         </div>
       </div>
-    </div>
-    <div class="footer2">
-      <div class="container flex-row">
-        <a href="#">Политика конфиденциальности</a>
-        <a href="#">Политика обработки персональных данных</a>
-        <a href="#">Правила продажи</a>
+      <div class="footer2">
+        <div class="container flex-row">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Политика обработки персональных данных</a>
+          <a href="#">Правила продажи</a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
